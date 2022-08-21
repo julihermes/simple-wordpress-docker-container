@@ -24,3 +24,5 @@ volumes:
 - This container doesn't have ``restart: always`` config purposely, just to have more control what sites (containers) I am working in the moment. You can add in ``docker-compose.yml`` if you want.
 
 - If you have to run multiple wordpress sites (containers) in the same time, make sure you change the ports mapped in ``docker-compose.yml``, use a different port for each site (dont forget Adminer's ports)
+
+- If you have trouble with permission in theme folder (or another folder that you are mapped) in linux or WSL, use the command: ``sudo chown your_user ./theme``,
