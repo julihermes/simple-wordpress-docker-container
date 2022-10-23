@@ -1,6 +1,6 @@
 # Simple Wordpress Docker Container
 
-A simple and quicly docker container for wordpress development.
+A simple and quickly docker container for wordpress development.
 
 This container has Wordpress, Mysql and Adminer.
 
