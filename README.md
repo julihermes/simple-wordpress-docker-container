@@ -8,7 +8,7 @@ This container has Wordpress, Mysql and Adminer.
 
 1. Clone the repo or download it.
 2. Run ``docker compose up -d``.
-3. Access http://localhost:8080 in your browser ans setup wodpress.
+3. Access http://localhost:8080 in your browser and setup wodpress.
 4. Start coding your theme in ``theme`` folder.
 
 ### More details
